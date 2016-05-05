@@ -1,4 +1,4 @@
-FROM codenvy/android
+FROM codenvy/ubuntu_android
 
 RUN sudo apt-get update && \
   sudo apt-get install -y curl && \
