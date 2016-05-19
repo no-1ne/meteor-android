@@ -11,3 +11,5 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 release-unsigned.apk rele
 $ANDROID_HOME/build-tools/22.0.1/zipalign 4 release-unsigned.apk final_app.apk
 
  
+
+cp final_app.apk public
