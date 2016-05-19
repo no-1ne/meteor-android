@@ -12,4 +12,4 @@ $ANDROID_HOME/build-tools/22.0.1/zipalign 4 release-unsigned.apk final_app.apk
 
  
 
-cp final_app.apk public
+cp final_app.apk public/
